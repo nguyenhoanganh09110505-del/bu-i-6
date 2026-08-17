@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    background-color: rgb(40, 140, 12);
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    color: white;
+    margin: 0 0 10px;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    padding: 15px;
+}
+
+aside {
+    width: 75%;
+}
+
+article {
+    border-bottom: 1px solid #c3c2c2;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+article h2 {
+    font-size: 20px;
+}
+
+article img {
+    width: 220px;
+    height: 110px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: rgb(52, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
